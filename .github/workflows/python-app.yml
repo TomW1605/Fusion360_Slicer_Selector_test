@@ -45,4 +45,5 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: Fusion360_Slicer_Selector
-        path: /dist/windows/slicer_selector.exe
+        path: /**/slicer_selector.exe
+        if-no-files-found: error
