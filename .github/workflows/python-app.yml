@@ -44,5 +44,5 @@ jobs:
 
     - uses: actions/upload-artifact@v2
       with:
-        name: slicer_selector.exe
-        path: src/dist/windows
+        name: Fusion360_Slicer_Selector
+        path: dist/windows/slicer_selector.exe
