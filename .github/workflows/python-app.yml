@@ -46,8 +46,8 @@ jobs:
       shell: bash
       run: find . -type f -executable
 
-    # - uses: actions/upload-artifact@v2
-    #   with:
-    #     name: Fusion360_Slicer_Selector
-    #     path: /**/slicer_selector.exe
-    #     if-no-files-found: error
+    - uses: actions/upload-artifact@v2
+      with:
+        name: Fusion360_Slicer_Selector
+        path: ./dist/windows/slicer_selector/slicer_selector.exe
+        if-no-files-found: error
